@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_Test"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="WPF_Test" MinHeight="200" MaxHeight="400" MinWidth="250" MaxWidth="500" d:DesignHeight="385" d:DesignWidth="500">
+    <Grid Margin="0,0,0,4">
+        <Button Content="1" HorizontalAlignment="Left" Margin="20,64,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Center" Height="25" Margin="25,25,25,25" TextWrapping="Wrap" VerticalAlignment="Top" Width="454"/>
 
     </Grid>
 </Window>
